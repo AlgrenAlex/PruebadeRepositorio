@@ -17,7 +17,7 @@
                                 </div>
                                 <div class="col-sm">
                                     <div class="form-group">
-                                        <label for="txtaDescripcion">Descripción de la Sub-tarea</label>
+                                        <label vhuiuukvkvku de la Sub-tarea</label>
                                         <textarea class="form-control" name="descripcion" id="txtaDescripcion"
                                                   placeholder="Nombre de la tarea e.g. Modulo de incidencias, Creacion de Tabla Siniestros, etc..." rows="3"></textarea>
                                     </div>
