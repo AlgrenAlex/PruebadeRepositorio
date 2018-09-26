@@ -4,7 +4,7 @@
                             <div class="row">
                                 <div class="col-sm">
                                     <div id="buttonContainer" class="form-group">
-                                        <label for="selectStatus">Estado de la subTarea</label>
+                                        <label for="selectLoli">Estado de la subTarea</label>
                                         <select id="selectStatus" class="custom-select">
                                             <option value="0">--Seleccione--</option>  
                                             <option value="TR">Terminada</option> 	1
