@@ -1,0 +1,36 @@
+                    <div class="card mb-3">
+                        <!-- Inicia contenido -->
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm">
+                                    <div id="buttonContainer" class="form-group">
+                                        <label for="selectStatus">Estado de la subTarea</label>
+                                        <select id="selectStatus" class="custom-select">
+                                            <option value="0">--Seleccione--</option>  
+                                            <option value="TR">Terminada</option> 	4
+                                            <option value="EJ">En Ejecucion</option>	2
+						Validada				3
+                                            <option value="EP">En Pausa</option>  	6
+                                            <option value="CD">Cancelada</option> 	7
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="form-group">
+                                        <label for="txtaDescripcion">Descripción de la Sub-tarea</label>
+                                        <textarea class="form-control" name="descripcion" id="txtaDescripcion"
+                                                  placeholder="Nombre de la tarea e.g. Modulo de incidencias, Creacion de Tabla Siniestros, etc..." rows="3"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+(Select Descripcion FROM [General.EstatusRegistro] Where [General.EstatusRegistro].IDEstatus = [Proyecto.Tarea].IDEstatus)
+
+Gett all id´s 
+Make cycle of addding a query for deleting deleted tasks
+
+
+Insert into ProyectoTipo (Descripcion) VALUES (Unidad Organizativa,Area,Departamento,
+Responsable,Miembro Proyecto,Lider Proyecto)
