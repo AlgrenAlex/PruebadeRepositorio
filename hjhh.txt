@@ -7,11 +7,11 @@
                                         <label for="selectStatus">Estado de la subTarea</label>
                                         <select id="selectStatus" class="custom-select">
                                             <option value="0">--Seleccione--</option>  
-                                            <option value="TR">Terminada</option> 	4
+                                            <option value="TR">Terminada</option> 	1
                                             <option value="EJ">En Ejecucion</option>	2
-						Validada				3
+						Validada				2
                                             <option value="EP">En Pausa</option>  	6
-                                            <option value="CD">Cancelada</option> 	7
+                                            <option value="CD">Cancelada</option> 	3
                                         </select>
                                     </div>
                                 </div>
